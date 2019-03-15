@@ -1,0 +1,33 @@
+{
+  "name": "zhendonger/dingtalk",
+  "description": "钉钉 SDK",
+  "version": "1.0.0",
+  "keywords": [
+    "dingtalk", "dingding", "dingtalk-sdk"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhendonger",
+      "email": "996068683@qq.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "mingyoung/dingtalk": "^1.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "EasyDingTalk\\": "src/"
+    },
+    "files": [
+      "src/Kernel/Support/helpers.php"
+    ]
+  }
+}
